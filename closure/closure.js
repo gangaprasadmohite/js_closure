@@ -48,12 +48,12 @@ function storyWriter() {
     return writerMethod;
 }
 
-var storyOfOurPlanet = storyWriter();
-storyOfOurPlanet.addWords("A woman politician was caught on camera stealing cosmetics. ");
-storyOfOurPlanet.addWords("The drugstore's security personnel called the police and she was arrested. ");
-storyOfOurPlanet.addWords("The charges were dropped when she said she would sue for false arrest. ");
-storyOfOurPlanet.addWords("The drugstore did not want negative publicity to incite her supporters. ");
-storyOfOurPlanet.addWords("25 years later a girl in law school burst into tears in an Ethics and Law class. ");
-storyOfOurPlanet.addWords("The controversial case studied was Media and her mother's ruined career.");
+var storyOfEthics = storyWriter();
+storyOfEthics.addWords("A woman politician was caught on camera stealing cosmetics. ");
+storyOfEthics.addWords("The drugstore's security personnel called the police and she was arrested. ");
+storyOfEthics.addWords("The charges were dropped when she said she would sue for false arrest. ");
+storyOfEthics.addWords("The drugstore did not want negative publicity to incite her supporters. ");
+storyOfEthics.addWords("25 years later a girl in law school burst into tears in an Ethics and Law class. ");
+storyOfEthics.addWords("The controversial case studied was Media and her mother's ruined career.");
 
-storyOfOurPlanet.erase();
+storyOfEthics.erase();
